@@ -22,6 +22,6 @@ This is a Express app running on MongoDB database. The style.css can be found in
 
 The app can be run on localhost:3000
 
-The compose route takes user entered blog and redirects to the home route where all the blogpost can be found. All blogpost are loaded using the Post.findOne() method from mongoDB database.  
+The compose route takes user entered blog and redirects to the home route where all the blogpost can be found. All blogpost are loaded using the Post.findOne() [https://docs.mongodb.com/manual/reference/method/db.collection.findOne/] method from mongoDB database.  
 
-Post.save() method saves the content of the Schema of the blogpost in the MongoDB database.
+Post.save() [https://docs.mongodb.com/manual/reference/method/db.collection.save/] method saves the content of the Schema of the blogpost in the MongoDB database.
