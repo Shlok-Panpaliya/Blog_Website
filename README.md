@@ -1,6 +1,11 @@
 # Blog_Website
-
-## Project Details
+## Tools and Technologies
+* Node.js
+* Express.js
+* EJS
+* MongoDb
+* Mongoose
+* CSS
 
 npm installs required
 
@@ -9,6 +14,9 @@ npm installs required
 * express
 * mongoose
 * lodash
+
+
+## About
 
 This is a Express app running on MongoDB database. The style.css can be found in the public folder. All the .ejs files can be found in the view folder and the footer and header are in partials folder in view.
 
